@@ -1,0 +1,32 @@
+package shop.mtcoding.blogv2.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+/*
+ * @Controller
+ * 1.ComponentScan->New->Ioc등록
+ * 2.return되는 값이 view 파일
+ * 
+ */
+
+@Controller //view 리졸버 발동
+public class UserController {
+
+	@GetMapping("/joinForm")
+	public String joinForm() {
+		return "user/joinForm";
+	}
+	
+	@GetMapping("/loginForm")
+	public String loginForm() {
+		return "user/loginForm";
+	}
+	
+	@GetMapp
+	
+	
+}
+
+
+
